@@ -9,7 +9,10 @@
 </head>
 
 <body>
-  <header>
+  <!-- Skip to main content link for keyboard users -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header role="banner">
     <a class="logo" href="#">Anna Obadeyi</a>
     <nav>
       <a href="#projects">Projects</a>
@@ -28,9 +31,9 @@
       <p class="hero-desc">Marketing and Merchandising Specialist with 5 years driving commercial performance across
         luxury e-commerce, multi-channel retail and higher education. MSc Digital Marketing, Distinction.</p>
       <div class="hero-acts">
-        <a href="#projects" class="btn btn-solid">View Projects</a>
-        <a href="/cdn-cgi/l/email-protection#debabfacbbb1bcbfbabba7b79eb9b3bfb7b2f0bdb1b3" class="btn btn-outline">Get
-          in Touch</a>
+        <a href="#projects" class="btn btn-solid" aria-label="View my projects">View Projects</a>
+        <a href="/cdn-cgi/l/email-protection#debabfacbbb1bcbfbabba7b79eb9b3bfb7b2f0bdb1b3" class="btn btn-outline"
+          aria-label="Send email to get in touch">Get in Touch</a>
       </div>
     </div>
     <div class="hero-bottom">
@@ -53,7 +56,7 @@
   </section>
 
   <!-- PROJECTS -->
-  <section class="section" id="projects">
+  <section class="section" id="projects" role="region" aria-label="Selected work and projects">
     <div class="section-top sr">
       <h2 class="section-heading">Selected <em>Work</em></h2>
       <span class="section-meta">5 Projects</span>
@@ -63,7 +66,8 @@
 
       <!-- 01: BEAUTY TECH MARKETING 101 (featured, first, 2025-2026) -->
       <a class="pcard pcard-featured sr d1" href="https://beautytechmarketing101.netlify.app/" target="_blank"
-        rel="noopener">
+        rel="noopener"
+        aria-label="Project 1: Beauty Tech Marketing 101 - Digital Publishing Platform. 12K+ newsletter subscribers, 50+ brand benchmarks, 8 min avg engagement time. Opens in new window">
         <div class="card-body">
           <span class="card-tag gold">Marketing Consultancy · Editorial Design</span>
           <h3 class="card-title">Beauty Tech Marketing 101<br><em>Digital Publishing Platform</em></h3>
@@ -89,10 +93,8 @@
         <div class="card-side">
           <span class="badge"><span class="badge-dot"></span>2025–2026</span>
           <div>
-            <div
-              style="font-family:var(--f-disp); font-size:clamp(0.9rem,1.6vw,1.2rem); color:var(--stone); line-height:1.4;">
-              Platform · Strategy · Editorial</div>
-            <div class="kpi-lbl" style="margin-top:8px;">Client Deliverable</div>
+            <div class="card-side-label">Platform · Strategy · Editorial</div>
+            <div class="kpi-lbl kpi-lbl-mt">Client Deliverable</div>
           </div>
         </div>
         <div class="card-num">01</div>
@@ -100,7 +102,8 @@
       </a>
 
       <!-- 02: AMAZON FRESH (2026) -->
-      <a class="pcard sr d2" href="slides/02_amazon_fresh/AmazonFresh_Slides.html" target="_blank" rel="noopener">
+      <a class="pcard sr d2" href="slides/02_amazon_fresh/AmazonFresh_Slides.html" target="_blank" rel="noopener"
+        aria-label="Project 2: Amazon Fresh UK - Storefront Audit. 22% conversion uplift potential, 6 gaps identified. Opens in new window">
         <span class="card-tag">Merchandising Audit</span>
         <h3 class="card-title">Amazon Fresh UK<br><em>Storefront Audit</em></h3>
         <p class="card-desc">Commercial analysis of the Amazon Fresh UK storefront. Six product discoverability gaps
@@ -121,7 +124,8 @@
       </a>
 
       <!-- 03: EVA SONAIKE -->
-      <a class="pcard sr d3" href="slides/01_eva_sonaike/EvaTonaike_Slides.html" target="_blank" rel="noopener">
+      <a class="pcard sr d3" href="slides/01_eva_sonaike/EvaTonaike_Slides.html" target="_blank" rel="noopener"
+        aria-label="Project 3: Eva Sonaike - Digital Marketing Impact. 34% launch week sessions increase, 12% organic discoverability lift. Opens in new window">
         <span class="card-tag gold">E-Commerce · Luxury Retail</span>
         <h3 class="card-title">Eva Sonaike<br><em>Digital Marketing Impact</em></h3>
         <p class="card-desc">Product launch management, SEO-led discoverability uplift and CRM segmentation for a luxury
@@ -141,7 +145,8 @@
       </a>
 
       <!-- 04: ANALYTICS -->
-      <a class="pcard sr d4" href="slides/03_ecommerce_analytics/Analytics_Slides.html" target="_blank" rel="noopener">
+      <a class="pcard sr d4" href="slides/03_ecommerce_analytics/Analytics_Slides.html" target="_blank" rel="noopener"
+        aria-label="Project 4: E-Commerce Analytics Dashboard. 12 KPIs tracked, 30 min weekly reporting time. Opens in new window">
         <span class="card-tag">Analytics · Data Strategy</span>
         <h3 class="card-title">E-Commerce<br><em>Analytics Dashboard</em></h3>
         <p class="card-desc">End-to-end analytics architecture built in GA4 and Looker Studio. 12 KPIs tracked across 5
@@ -162,7 +167,8 @@
       </a>
 
       <!-- 05: CONSULTANCY -->
-      <a class="pcard sr d4" href="slides/04_consultancy/Consultancy_Slides.html" target="_blank" rel="noopener">
+      <a class="pcard sr d4" href="https://beautytechmarketing101.netlify.app/" target="_blank" rel="noopener"
+        aria-label="Project 5: Beauty and Beijing - Client Portfolio. 22% conversion rate lift, 200+ Instagram followers in 60 days. Opens in new window">
         <span class="card-tag gold">Consultancy · B2B · Beauty</span>
         <h3 class="card-title">Beauty and Beijing<br><em>Client Portfolio</em></h3>
         <p class="card-desc">End-to-end campaign management and e-commerce strategy for UK beauty brands and
@@ -186,49 +192,45 @@
   </section>
 
   <!-- SKILLS -->
-  <div class="skills-band" id="skills">
+  <div class="skills-band" id="skills" role="region" aria-label="Core competencies and technical skills">
     <p class="skills-label sr">Core Competencies</p>
-    <div class="skills-row sr d1">
-      <span class="skill">Online Merchandising</span>
-      <span class="skill">Trade Calendar Planning</span>
-      <span class="skill">Product Discoverability</span>
-      <span class="skill">Integrated Campaign Execution</span>
-      <span class="skill">Stakeholder Management</span>
-      <span class="skill">Performance Analytics</span>
-      <span class="skill">GA4</span>
-      <span class="skill">Looker Studio</span>
-      <span class="skill">HubSpot</span>
-      <span class="skill">SEMrush</span>
-      <span class="skill">Advanced Excel</span>
-      <span class="skill">A/B Testing</span>
-      <span class="skill">E-Commerce Retail</span>
-      <span class="skill">Budget Control</span>
-      <span class="skill">Cross-functional Collaboration</span>
-      <span class="skill">CRM Platforms</span>
-      <span class="skill">Adobe Creative Suite</span>
-      <span class="skill">Google Tag Manager</span>
-      <span class="skill">Agile Delivery</span>
+    <div class="skills-row sr d1" role="list">
+      <span class="skill" role="listitem">Online Merchandising</span>
+      <span class="skill" role="listitem">Trade Calendar Planning</span>
+      <span class="skill" role="listitem">Product Discoverability</span>
+      <span class="skill" role="listitem">Integrated Campaign Execution</span>
+      <span class="skill" role="listitem">Stakeholder Management</span>
+      <span class="skill" role="listitem">Performance Analytics</span>
+      <span class="skill" role="listitem">GA4</span>
+      <span class="skill" role="listitem">Looker Studio</span>
+      <span class="skill" role="listitem">HubSpot</span>
+      <span class="skill" role="listitem">SEMrush</span>
+      <span class="skill" role="listitem">Advanced Excel</span>
+      <span class="skill" role="listitem">A/B Testing</span>
+      <span class="skill" role="listitem">E-Commerce Retail</span>
+      <span class="skill" role="listitem">Budget Control</span>
+      <span class="skill" role="listitem">Cross-functional Collaboration</span>
+      <span class="skill" role="listitem">CRM Platforms</span>
+      <span class="skill" role="listitem">Adobe Creative Suite</span>
+      <span class="skill" role="listitem">Google Tag Manager</span>
+      <span class="skill" role="listitem">Agile Delivery</span>
     </div>
   </div>
 
   <!-- FOOTER -->
-  <footer id="contact">
+  <footer id="contact" role="contentinfo" aria-label="Contact information and social links">
     <div class="footer-top sr">
       <div>
         <h2 class="footer-heading">Let's<br><em>work</em><br>together.</h2>
-        <a class="contact-link" href="mailto:dareobadeyi@gmail.com"
-          style="margin-top:1.5rem; display:inline-block;">dareobadeyi@gmail.com</a>
+        <a class="contact-link contact-link-email" href="mailto:dareobadeyi@gmail.com"
+          aria-label="Email: dareobadeyi@gmail.com">dareobadeyi@gmail.com</a>
       </div>
       <div class="footer-links">
         <span class="footer-detail">Location</span>
-        <span style="font-family:var(--f-body); font-size:clamp(0.72rem,1.1vw,0.88rem); color:var(--stone);">London,
-          UK</span>
-        <span class="footer-detail" style="margin-top:1rem;">LinkedIn</span>
-        <a class="contact-link" href="https://linkedin.com/in/oluwadareobadeyi" target="_blank"
-          rel="noopener">linkedin.com/in/oluwadareobadeyi</a>
-        <span class="footer-detail" style="margin-top:1rem;">Phone</span>
-        <span style="font-family:var(--f-body); font-size:clamp(0.72rem,1.1vw,0.88rem); color:var(--stone);">+44 7770
-          776442</span>
+        <span class="footer-location">London, UK</span>
+        <span class="footer-detail footer-detail-mt">LinkedIn</span>
+        <a class="contact-link" href="https://linkedin.com/in/oluwadareobadeyi" target="_blank" rel="noopener"
+          aria-label="LinkedIn profile: linkedin.com/in/oluwadareobadeyi (opens in new window)">linkedin.com/in/oluwadareobadeyi</a>
       </div>
     </div>
     <div class="footer-base">
