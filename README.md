@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing marketing and merchandising expertise with a focus on luxury e-commerce and commercial strategy work.
 
-**Live Demo:** [beautytechmarketing101.netlify.app](https://beautytechmarketing101.netlify.app/)
+**Live Demo:** [Anna's Portfolio](https://anna-marmech.netlify.app/)
 
 ---
 
