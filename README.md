@@ -1,4 +1,4 @@
-# Anna Obadeyi Portfolio
+# Anna Obadeyi
 
 A modern, responsive portfolio website showcasing marketing and merchandising expertise with a focus on luxury e-commerce and commercial strategy work.
 
