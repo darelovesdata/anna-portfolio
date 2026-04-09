@@ -8,7 +8,7 @@ A modern, responsive portfolio website showcasing marketing and merchandising ex
 
 ## Overview
 
-This is a single-page portfolio built with semantic HTML5, CSS3, and vanilla JavaScript. It features:
+This is a single-page portfolio built with semantic HTML5, CSS3 and vanilla JavaScript. It features:
 
 - Responsive grid-based layout
 - Scroll-triggered animations
