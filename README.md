@@ -1,4 +1,4 @@
-# Anna Obadeyi
+# Anna Obadeyi Portfolio
 
 A modern, responsive portfolio website showcasing marketing and merchandising expertise with a focus on luxury e-commerce and commercial strategy work.
 
@@ -52,9 +52,9 @@ This portfolio meets **WCAG AA accessibility standards** with the following feat
 
 All text meets WCAG AA minimum contrast ratios:
 
-- **Primary text** (Stone on Ink): 11:1 ✅ **AAA level**
-- **Secondary text** (Fog/Fog-light on Ink): 5.2–6.5:1 ✅ **AA level**
-- **Accent colors** (Gold, Coral): 4.1–5.8:1 ✅ **AA level**
+- **Primary text** (Stone on Ink): 11:1 **AAA level**
+- **Secondary text** (Fog/Fog-light on Ink): 5.2–6.5:1 **AA level**
+- **Accent colors** (Gold, Coral): 4.1–5.8:1 **AA level**
 
 ### Keyboard Navigation
 
@@ -86,10 +86,10 @@ All text meets WCAG AA minimum contrast ratios:
 
 ### Tested & Verified
 
-- ✅ WCAG 2.1 AA compliance
-- ✅ Tested with keyboard-only navigation
-- ✅ Compatible with major screen readers
-- ✅ Mobile device accessible
+- WCAG 2.1 AA compliance
+- Tested with keyboard-only navigation
+- Compatible with major screen readers
+- Mobile device accessible
 
 ---
 
@@ -232,7 +232,7 @@ xdg-open index.html
 
 ### 2. Deploy to Web
 
-**Option A: Netlify (Recommended)**
+**Option A - Netlify (Recommended):**
 
 ```bash
 # Drag and drop the marmech folder to Netlify
@@ -251,11 +251,11 @@ Upload all files (index.html, style.css, slides/) to any static hosting service.
 
 | Project                              | Link Type | Location                                              |
 | ------------------------------------ | --------- | ----------------------------------------------------- |
-| 01. Beauty Tech Marketing 101        | External  | https://beautytechmarketing101.netlify.app/           |
+| 01. Beauty Tech Marketing 101        | External  | <https://beautytechmarketing101.netlify.app/>         |
 | 02. Amazon Fresh UK                  | Local     | `slides/02_amazon_fresh/AmazonFresh_Slides.html`      |
 | 03. Eva Sonaike                      | Local     | `slides/01_eva_sonaike/EvaTonaike_Slides.html`        |
 | 04. E-Commerce Analytics             | Local     | `slides/03_ecommerce_analytics/Analytics_Slides.html` |
-| 05. Beauty and Beijing (Consultancy) | External  | https://beautytechmarketing101.netlify.app/           |
+| 05. Beauty and Beijing (Consultancy) | External  | <https://beautytechmarketing101.netlify.app/>         |
 
 **Note:** Only 3 local slide folders need to be created. Projects 01 and 05 link to external hosted sites.
 
@@ -332,11 +332,10 @@ Elements with `.sr` class start hidden. When scrolled into view (12% threshold),
 
 ---
 
-## 🔗 External Links
+## External Links
 
-- **Email:** <dareobadeyi@gmail.com>
+- **Email:** [Contact](mailto:dareobadeyi@gmail.com)
 - **LinkedIn:** [LinkedIn](linkedin.com/in/oluwadareobadeyi)
-- **Location:** London, UK
 
 ---
 
@@ -357,33 +356,33 @@ This portfolio meets **WCAG 2.1 AA** accessibility standards:
 
 ### Color Contrast
 
-- Primary text (Stone): 11:1 ✅ AAA
-- Secondary text (Fog): 5.2:1 ✅ AA
-- Accent colors: 4.1–5.8:1 ✅ AA
+- Primary text (Stone): 11:1 AAA
+- Secondary text (Fog): 5.2:1 AA
+- Accent colors: 4.1–5.8:1 AA
 
 ### Keyboard Navigation
 
-- ✅ All interactive elements accessible via Tab key
-- ✅ Clear 2px gold focus outlines
-- ✅ Skip-to-content link for quick navigation
-- ✅ No keyboard traps
+- All interactive elements accessible via Tab key
+- Clear 2px gold focus outlines
+- Skip-to-content link for quick navigation
+- No keyboard traps
 
 ### Screen Reader Support
 
-- ✅ Semantic HTML with proper roles (header, nav, main, footer)
-- ✅ ARIA labels on project cards and regions
-- ✅ Proper list markup for skills
-- ✅ Descriptive link labels
+- Semantic HTML with proper roles (header, nav, main, footer)
+- ARIA labels on project cards and regions
+- Proper list markup for skills
+- Descriptive link labels
 
 ### Visual Design
 
-- ✅ High contrast color palette
-- ✅ Clear visual focus indicators
-- ✅ Responsive fonts using `clamp()`
-- ✅ 1.75 line-height for readability
+- High contrast color palette
+- Clear visual focus indicators
+- Responsive fonts using `clamp()`
+- 1.75 line-height for readability
 
 ---
 
 ## License
 
-© 2026 Oluwadare Anna Obadeyi. All rights reserved.
+(c) 2026 Oluwadare Anna Obadeyi. All rights reserved.
