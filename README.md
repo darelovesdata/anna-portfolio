@@ -6,7 +6,7 @@ A modern, responsive portfolio website showcasing marketing and merchandising ex
 
 ---
 
-## 📋 Overview
+## Overview
 
 This is a single-page portfolio built with semantic HTML5, CSS3, and vanilla JavaScript. It features:
 
@@ -18,7 +18,7 @@ This is a single-page portfolio built with semantic HTML5, CSS3, and vanilla Jav
 
 ---
 
-## 🛠 Technology Stack
+## Technology Stack
 
 - **HTML5** – Semantic markup
 - **CSS3** – Advanced layouts (Grid, Flexbox), custom properties, animations
@@ -29,7 +29,7 @@ This is a single-page portfolio built with semantic HTML5, CSS3, and vanilla Jav
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```structure
 marmech/
@@ -44,7 +44,7 @@ marmech/
 
 ---
 
-## ♿ Accessibility Features
+## Accessibility Features
 
 This portfolio meets **WCAG AA accessibility standards** with the following features:
 
@@ -93,7 +93,7 @@ All text meets WCAG AA minimum contrast ratios:
 
 ---
 
-## 🌐 Color Palette & WCAG Compliance
+## Color Palette & WCAG Compliance
 
 Defined as CSS custom properties in `:root`:
 
@@ -117,7 +117,7 @@ Custom ease curve: `cubic-bezier(0.22, 1, 0.36, 1)` for smooth, premium feel
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 ### 1. Hero Section
 
@@ -159,7 +159,7 @@ Custom ease curve: `cubic-bezier(0.22, 1, 0.36, 1)` for smooth, premium feel
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 Multiple breakpoints optimized for all screen sizes:
 
@@ -213,7 +213,7 @@ Multiple breakpoints optimized for all screen sizes:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. View Locally
 
@@ -302,7 +302,7 @@ Edit directly in `index.html`:
 
 ---
 
-## 🔄 Animations
+## Animations
 
 ### Fade-Up Animation
 
@@ -340,7 +340,7 @@ Elements with `.sr` class start hidden. When scrolled into view (12% threshold),
 
 ---
 
-## 📝 Notes
+## Notes
 
 - CSS preprocessor not used (vanilla CSS3 with custom properties)
 - No JavaScript framework (vanilla ES6)
@@ -351,7 +351,7 @@ Elements with `.sr` class start hidden. When scrolled into view (12% threshold),
 
 ---
 
-## ♿ Accessibility Compliance
+## Accessibility Compliance
 
 This portfolio meets **WCAG 2.1 AA** accessibility standards:
 
@@ -384,6 +384,6 @@ This portfolio meets **WCAG 2.1 AA** accessibility standards:
 
 ---
 
-## 📄 License
+## License
 
 © 2026 Oluwadare Anna Obadeyi. All rights reserved.
