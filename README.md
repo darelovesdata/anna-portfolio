@@ -335,7 +335,7 @@ Elements with `.sr` class start hidden. When scrolled into view (12% threshold),
 ## 🔗 External Links
 
 - **Email:** <dareobadeyi@gmail.com>
-- **LinkedIn:** linkedin.com/in/oluwadareobadeyi
+- **LinkedIn:** [LinkedIn](linkedin.com/in/oluwadareobadeyi)
 - **Location:** London, UK
 
 ---
